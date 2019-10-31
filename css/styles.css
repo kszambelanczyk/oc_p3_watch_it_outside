@@ -7116,7 +7116,7 @@ div.carousel-overlay {
   color: #fcfcfc;
   padding: 80px 0 50px 0; }
   #news .row-news {
-    margin: 20px 0 20px 0; }
+    margin: 20px 0 40px 0; }
   #news .muted {
     opacity: 0.7; }
 
@@ -7135,8 +7135,11 @@ div.carousel-overlay {
   padding-top: 5px;
   padding-bottom: 8px; }
 
-.reservation {
+#reservation {
   color: #114b5f; }
+  #reservation .container {
+    margin-top: 50px;
+    margin-bottom: 30px; }
 
 .hidden {
   display: none; }
@@ -7145,5 +7148,36 @@ div.carousel-overlay {
   height: 492px; }
   #reservation-submit-info p {
     padding-top: 150px; }
+
+#contact {
+  background-color: #1a936f;
+  color: #fcfcfc;
+  padding: 80px 0 50px 0; }
+  #contact h2 {
+    margin-bottom: 1rem; }
+
+ul.social-media-list {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0; }
+  ul.social-media-list li {
+    margin: 0 1rem 0 1rem;
+    display: inline; }
+    ul.social-media-list li a {
+      font-size: 2rem;
+      color: #fcfcfc; }
+      ul.social-media-list li a:hover {
+        color: #c6dabf; }
+
+ul.other-links a {
+  color: #fcfcfc; }
+  ul.other-links a:hover {
+    color: #c6dabf; }
+
+a.link-white {
+  color: #fcfcfc;
+  text-decoration: underline; }
+  a.link-white:hover {
+    color: #c6dabf; }
 
 /*# sourceMappingURL=styles.css.map */

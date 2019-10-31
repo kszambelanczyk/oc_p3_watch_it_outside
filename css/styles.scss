@@ -139,7 +139,7 @@ div.carousel-overlay {
 	padding: 80px 0 50px 0;
 
 	.row-news {
-		margin: 20px 0 20px 0;
+		margin: 20px 0 40px 0;
 
 	}
 	.muted {
@@ -167,8 +167,12 @@ div.carousel-overlay {
 	padding-bottom: 8px;
 }
 
-.reservation {
+#reservation {
 	color: $color1;
+	.container {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
 }
 
 .hidden {
@@ -179,6 +183,53 @@ div.carousel-overlay {
 	height: 492px;
 	p {
 		padding-top: 150px;
+	}
+}
+
+#contact {
+	background-color: $color2;
+	color: $color5;
+	padding: 80px 0 50px 0;
+	h2 {
+		margin-bottom: 1rem;
+	}
+
+}
+
+ul.social-media-list {
+	margin-top: 2rem;
+	list-style: none;
+	padding: 0;
+	li {
+		margin: 0 1rem 0 1rem;
+		display: inline;
+		a {
+			font-size:2rem;
+			color: $color5;
+			&:hover {
+				color: $color4;
+
+			}
+		}
+	}
+}
+
+ul.other-links {
+	a {
+		color: $color5;
+		&:hover {
+			color: $color4;
+
+		}
+	}
+}
+
+a.link-white {
+	color: $color5;
+	text-decoration: underline;
+	&:hover {
+		color: $color4;
+
 	}
 }
 
